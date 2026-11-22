@@ -1,0 +1,69 @@
+LTspice 26.1.1 for Windows
+Circuit: C:\users\hacker\Documents\EEE Sizing\Engine Power\Spice\full-bridge.net
+Start Time: Sun Nov 22 16:24:53 2026
+Options:cshunt=1e-12
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+WARNING: Node n005 is floating.
+WARNING: Node n007 is floating.
+
+Instance "x1:u1:x_gd_template:x_ho_stage:M_HO_PMOS": Length shorter than recommended for a level 1 MOSFET.
+Instance "x1:u1:x_gd_template:x_ho_stage:M_HO_NMOS": Length shorter than recommended for a level 1 MOSFET.
+Instance "x1:u1:x_gd_template:x_lo_stage:M_LO_PMOS": Length shorter than recommended for a level 1 MOSFET.
+Instance "x1:u1:x_gd_template:x_lo_stage:M_LO_NMOS": Length shorter than recommended for a level 1 MOSFET.
+Instance "x2:u1:x_gd_template:x_ho_stage:M_HO_PMOS": Length shorter than recommended for a level 1 MOSFET.
+Instance "x2:u1:x_gd_template:x_ho_stage:M_HO_NMOS": Length shorter than recommended for a level 1 MOSFET.
+Instance "x2:u1:x_gd_template:x_lo_stage:M_LO_PMOS": Length shorter than recommended for a level 1 MOSFET.
+Instance "x2:u1:x_gd_template:x_lo_stage:M_LO_NMOS": Length shorter than recommended for a level 1 MOSFET.
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip all Gmin stepping.
+Starting source stepping with srcstepmethod=0
+Starting source stepping with srcstepmethod=1
+Source stepping failed to find operating point. Use ".options srcsteps=0" to skip all source stepping.
+Starting Gmin stepping level 2
+Gmin stepping level 2 failed to find operating point. Use".option gminsteps=0" to skip all Gmin stepping.
+Starting source stepping with srcstepmethod=1, level 2
+Starting source stepping with srcstepmethod=0, level 2
+Source stepping level 2 failed to find operating point. Use ".options srcsteps=0" to skip all source stepping.
+Pseudo Transient failed to find the operating point at 5.11249 µs
+Pseudo Transient level 2 failed to find the operating point at 5.11249 µs
+Trouble finding operating point....skipping operating point for Transient analysis.
+Changing Tseed to 2.00195e-09
+Changing Tseed to 2.00195e-11
+Changing Tseed to 2.00195e-08
+Changing Tseed to 2.00195e-12
+Changing Tseed to 2.00195e-07
+Changing Tseed to 2.00195e-13
+Warning: Simulation tolerance relaxed to achieve convergence from 1.0441646080138404e-04 to 1.0441646080138504e-04 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 1.0441724307721957e-04 to 1.0441724307722057e-04 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.1145301873459182e-04 to 5.1145301873459280e-04 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.6235127233235642e-04 to 5.6235127233235740e-04 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.6235127233235935e-04 to 5.6235127233236033e-04 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.6235127233239036e-04 to 5.6235127233239134e-04 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.6235127233239914e-04 to 5.6235127233240012e-04 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.6235127233243015e-04 to 5.6235127233243113e-04 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.6235127233243991e-04 to 5.6235127233244088e-04 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.6235127233244479e-04 to 5.6235127233244576e-04 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.6235127233244674e-04 to 5.6235127233244771e-04 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.6235127233245368e-04 to 5.6235127233245465e-04 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.6235127233245465e-04 to 5.6235127233245563e-04 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 6.1334787504052374e-04 to 6.1334787504052472e-04 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 6.6420248412628346e-04 to 6.6420248412628444e-04 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 7.1503788657709632e-04 to 7.1503788657709729e-04 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 7.1503788657709729e-04 to 7.1503788657709827e-04 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 1.9542414171385765e-03 to 1.9542414171385865e-03 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 1.9542414171386264e-03 to 1.9542414171386364e-03 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 1.9542414171387062e-03 to 1.9542414171387162e-03 seconds.
+Total elapsed time: 34.185 seconds.
+Total iterations: 344023
+
+Files loaded:
+C:\users\hacker\Documents\EEE Sizing\Engine Power\Spice\full-bridge.net
+C:\users\hacker\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\users\hacker\AppData\Local\LTspice\lib\cmp\standard.mos
+C:\users\hacker\Documents\EEE Sizing\Engine Power\Spice\IR2110.lib
+
